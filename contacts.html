@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .table-container {
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid green;
+        }
+        th {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <H1>
+    <p>BACK TO MAIN PAGE: <a href="wepage yekon.html">BACK</a></p>
+</H1>
+    <div id="contacts" class="content">
+        <h2>Contacts</h2>
+        <p>Email me at: <a href="kipkirui@mail.com">kipkirui@gmail.com</a></p>
+        <hr>
+        
+        <div class="form-container">
+            <h3>Contact Form</h3>
+            <form action="/submit_form" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
